@@ -1,0 +1,30 @@
+[0m21:24:21.613188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a5a0ee5430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a5a05914f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a5a0ddbc50>]}
+
+
+============================== 21:24:21.620519 | 5683bb92-f403-40ba-afa4-09cc833369bd ==============================
+[0m21:24:21.620519 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:24:21.621342 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'profiles_dir': '/home/lucas/LPS/projeto01/dataflow-setup/.dbt', 'static_parser': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'no_print': 'None', 'printer_width': '80', 'empty': 'None', 'partial_parse': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'quiet': 'False', 'indirect_selection': 'eager', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'introspect': 'True', 'write_json': 'True', 'target_path': 'None'}
+[0m21:24:45.125094 [debug] [MainThread]: Starter project path: /home/lucas/TESTES/projeto01/etl_commodities/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m21:24:45.136482 [info ] [MainThread]: 
+Your new dbt project "dbcommodities_9z43" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:24:45.137762 [info ] [MainThread]: Setting up your profile.
+[0m21:27:07.468354 [info ] [MainThread]: Profile dbcommodities_9z43 written to /home/lucas/LPS/projeto01/dataflow-setup/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:27:07.482445 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 158.72276, "process_in_blocks": "76304", "process_kernel_time": 0.51109, "process_mem_max_rss": "102652", "process_out_blocks": "88", "process_user_time": 1.97249}
+[0m21:27:07.484235 [debug] [MainThread]: Command `dbt init` succeeded at 21:27:07.483841 after 158.73 seconds
+[0m21:27:07.485829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a5a04b8bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a5a0a51670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a5a0ddbc50>]}
+[0m21:27:07.487783 [debug] [MainThread]: Flushing usage events
+[0m21:27:09.089635 [debug] [MainThread]: An error was encountered while trying to flush usage events
